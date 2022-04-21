@@ -14,14 +14,29 @@
         <title>Document</title>
     </head>
     <body>
-        <div class="main-box">
-            <!-- <img src="assets/Background.png" alt="" class="bg" /> -->
-
+        <div class="bg">
             <nav class="nav">
                 <img src="assets/Logo.svg" alt="" class="logo" />
                 <button class="dropdown-btn">
                     <img src="assets/Hamburger Menu.svg" alt="" />
                 </button>
+                <div class="expanded-nav">
+                    <button class="dropdown-x-btn">
+                        <img class="x" src="assets/x-symbol.svg" alt="" />
+                    </button>
+                    <button>
+                        <img
+                            src="assets/Search Icon.svg"
+                            alt=""
+                            class="search"
+                        />
+                    </button>
+                    <a href="#" class="sign-in">Sign in</a>
+                    <button class="top-btn get-started-btn">
+                        <span class="get-started-btn-bold">Get Started</span> -
+                        it's free
+                    </button>
+                </div>
             </nav>
             <section class="top">
                 <h1 class="top-title">Gorgeous Code Snippets</h1>
@@ -36,12 +51,14 @@
                 <p class="top-payment">No credit card required.</p>
                 <img class="top-image" src="assets/Snippet Image.png" alt="" />
             </section>
-            <section class="bottom">
-                <img
-                    src="assets/Customizable Image.png"
-                    alt=""
-                    class="bottom-image"
-                />
+        </div>
+        <section class="bottom">
+            <img
+                src="assets/Customizable Image.png"
+                alt=""
+                class="bottom-image"
+            />
+            <div class="bottom-text">
                 <h2 class="bottom-title">
                     A fully customizable code snippet editor
                 </h2>
@@ -54,19 +71,15 @@
                     <span class="get-started-btn-bold">Get Started</span> - it's
                     free
                 </button>
-            </section>
-            <footer class="footer">
-                <img
-                    class="footer-logo"
-                    src="assets/Logo.svg"
-                    alt=""
-                    class="logo"
-                />
-                <div class="footer-links">
-                    <a href="#">Terms and Conditions</a>
-                    <a href="#">Privacy Policy</a>
-                </div>
-            </footer>
-        </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <img class="logo footer-logo" src="assets/Logo.svg" alt="" />
+            <div class="footer-links">
+                <a href="#">Terms and Conditions</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+        </footer>
+        <script src="app.js"></script>
     </body>
 </html>
