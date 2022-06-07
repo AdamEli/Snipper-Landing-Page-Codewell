@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: (https://github.com/AdamEli/Snipper-Landing-Page-Codewell)
--   Live Site URL: (https://snipper-landing-page-codewell.vercel.app/)
+-   Solution URL: [Github](https://github.com/AdamEli/Snipper-Landing-Page-Codewell)
+-   Live Site URL: [Snipper](https://snipper-landing-page-codewell.vercel.app/)
 
 ## My process
 
